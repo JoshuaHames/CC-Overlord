@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/stair/stone/parent/right_torch",
+	"textures": {
+		"1": "minecraft:block/packed_mud",
+		"2": "minecraft:block/mud_bricks",
+		"4": "mcwbridges:block/torch",
+		"particle": "minecraft:block/mud_bricks"
+	}
+}

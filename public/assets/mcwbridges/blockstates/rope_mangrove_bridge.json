@@ -1,0 +1,231 @@
+{
+    "variants": {                         
+		"facing=north,north=true,east=true,south=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_base", "y": 90},
+		"facing=east,north=true,east=true,south=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_base"},
+		"facing=south,north=true,east=true,south=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_base", "y": 90},
+		"facing=west,north=true,east=true,south=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_base"},
+	
+        "facing=north,north=false,east=false,south=false,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle", "y": 90},
+		"facing=east,north=false,east=false,south=false,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle"},
+		"facing=south,north=false,east=false,south=false,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle", "y": 90},
+		"facing=west,north=false,east=false,south=false,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle"},
+		
+		"north=false,east=false,south=true,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_end", "y": 180},
+		"north=true,east=false,south=false,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_end"},
+		"north=false,east=false,south=false,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_end", "y": 270},
+		"north=false,east=true,south=false,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_end", "y": 90},
+	
+		"facing=north,north=false,east=true,south=false,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle", "y": 90},
+		"facing=north,north=true,east=false,south=true,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_r"},
+		
+		"facing=east,north=false,east=true,south=false,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_r", "y": 90},
+		"facing=east,north=true,east=false,south=true,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle"},
+		
+		"facing=south,north=false,east=true,south=false,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle", "y": 90},
+		"facing=south,north=true,east=false,south=true,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_r"},
+		
+		"facing=west,north=false,east=true,south=false,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_r", "y": 90},
+		"facing=west,north=true,east=false,south=true,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle"},
+		
+		"facing=north,toggle=false,north=true,east=false,south=false,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_r", "y": 180},
+		"facing=south,toggle=false,north=true,east=false,south=false,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_r", "y": 180},
+		"facing=east,toggle=false,north=true,east=false,south=false,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear", "y": 180},
+		"facing=west,toggle=false,north=true,east=false,south=false,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear", "y": 180},
+		
+		"facing=north,toggle=false,north=true,east=true,south=false,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear", "y": 270},
+		"facing=south,toggle=false,north=true,east=true,south=false,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear", "y": 270},
+		"facing=east,toggle=false,north=true,east=true,south=false,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_r", "y": 270},
+		"facing=west,toggle=false,north=true,east=true,south=false,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_r", "y": 270},
+		
+		"facing=north,toggle=false,north=false,east=true,south=true,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_r"},
+		"facing=south,toggle=false,north=false,east=true,south=true,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_r"},
+		"facing=east,toggle=false,north=false,east=true,south=true,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear"},
+		"facing=west,toggle=false,north=false,east=true,south=true,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear"},
+		
+		"facing=north,toggle=false,north=false,east=false,south=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear", "y": 90},
+		"facing=south,toggle=false,north=false,east=false,south=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear", "y": 90},	
+		"facing=east,toggle=false,north=false,east=false,south=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_r", "y": 90},	
+		"facing=west,toggle=false,north=false,east=false,south=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_r", "y": 90},	
+		
+		"facing=north,toggle=false,north=true,east=true,south=false,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side"},
+		"facing=south,toggle=false,north=true,east=true,south=false,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side"},
+		"facing=east,toggle=false,north=true,east=true,south=false,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_r"},
+		"facing=west,toggle=false,north=true,east=true,south=false,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_r"},
+		
+		"facing=north,toggle=false,north=false,east=true,south=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side", "y": 180},
+		"facing=south,toggle=false,north=false,east=true,south=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side", "y": 180},
+		"facing=east,toggle=false,north=false,east=true,south=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_r", "y": 180},
+		"facing=west,toggle=false,north=false,east=true,south=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_r", "y": 180},
+		
+		"facing=north,toggle=false,north=true,east=true,south=true,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_r", "y": 90},
+		"facing=south,toggle=false,north=true,east=true,south=true,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_r", "y": 90},
+		"facing=east,toggle=false,north=true,east=true,south=true,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side", "y": 90},
+		"facing=west,toggle=false,north=true,east=true,south=true,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side", "y": 90},
+		
+		"facing=north,toggle=false,north=true,east=false,south=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_r", "y": 270},
+		"facing=south,toggle=false,north=true,east=false,south=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_r", "y": 270},
+		"facing=east,toggle=false,north=true,east=false,south=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side", "y": 270},
+		"facing=west,toggle=false,north=true,east=false,south=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side", "y": 270},
+		
+		"facing=east,toggle=true,north=true,east=false,south=false,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_right"},
+		"facing=east,toggle=true,north=false,east=false,south=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_left", "y": 180},
+		"facing=east,toggle=true,north=false,east=true,south=true,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_right", "y": 180},
+		"facing=east,toggle=true,north=true,east=true,south=false,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_left"},
+		
+		"facing=north,toggle=true,north=true,east=false,south=false,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_left", "y": 270},
+		"facing=north,toggle=true,north=false,east=false,south=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_right", "y": 270},
+		"facing=north,toggle=true,north=false,east=true,south=true,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_left", "y": 90},
+		"facing=north,toggle=true,north=true,east=true,south=false,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_right", "y": 90},
+	
+		"facing=west,toggle=true,north=true,east=false,south=false,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_right"},
+		"facing=west,toggle=true,north=false,east=false,south=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_left", "y": 180},
+		"facing=west,toggle=true,north=false,east=true,south=true,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_right", "y": 180},
+		"facing=west,toggle=true,north=true,east=true,south=false,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_left"},
+		
+		"facing=south,toggle=true,north=true,east=false,south=false,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_left", "y": 270},
+		"facing=south,toggle=true,north=false,east=false,south=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_right", "y": 270},
+		"facing=south,toggle=true,north=false,east=true,south=true,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_left", "y": 90},
+		"facing=south,toggle=true,north=true,east=true,south=false,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_right", "y": 90},	
+
+		"east=true,facing=south,north=true,south=false,toggle=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_base", "y": 90},
+		"east=true,facing=south,north=false,south=true,toggle=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_base", "y": 90},
+		"east=false,facing=south,north=true,south=true,toggle=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_end", "y": 270},
+		"east=true,facing=south,north=true,south=true,toggle=true,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_end", "y": 90},
+	
+		"east=false,facing=east,north=true,south=true,toggle=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_base"},
+		"east=true,facing=east,north=true,south=false,toggle=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_end"},
+		"east=true,facing=east,north=false,south=true,toggle=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_end", "y": 180},
+		"east=true,facing=east,north=true,south=true,toggle=true,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_base"},
+		
+		"east=true,facing=west,north=false,south=true,toggle=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_end", "y": 180},
+		"east=true,facing=west,north=true,south=false,toggle=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_end"},
+		"east=false,facing=west,north=true,south=true,toggle=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_base"},
+		"east=true,facing=west,north=true,south=true,toggle=true,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_base"},
+		
+		"east=true,facing=north,north=true,south=true,toggle=true,west=false,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_end", "y": 90},
+		"east=true,facing=north,north=false,south=true,toggle=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_base", "y": 90},
+		"east=false,facing=north,north=true,south=true,toggle=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_end", "y": 270},
+		"east=true,facing=north,north=true,south=false,toggle=true,west=true,torch=false":  { "model": "mcwbridges:block/bridge/rope/mangrove_base", "y": 90},
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		"facing=north,north=true,east=true,south=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_t", "y": 90},
+		"facing=east,north=true,east=true,south=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_t"},
+		"facing=south,north=true,east=true,south=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_t", "y": 90},
+		"facing=west,north=true,east=true,south=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_t"},
+	
+        "facing=north,north=false,east=false,south=false,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_t", "y": 90},
+		"facing=east,north=false,east=false,south=false,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_t"},
+		"facing=south,north=false,east=false,south=false,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_t", "y": 90},
+		"facing=west,north=false,east=false,south=false,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_t"},
+		
+		"north=false,east=false,south=true,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_end_t", "y": 180},
+		"north=true,east=false,south=false,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_end_t"},
+		"north=false,east=false,south=false,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_end_t", "y": 270},
+		"north=false,east=true,south=false,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_end_t", "y": 90},
+	
+		"facing=north,north=false,east=true,south=false,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_t", "y": 90},
+		"facing=north,north=true,east=false,south=true,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_r_t"},
+		
+		"facing=east,north=false,east=true,south=false,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_r_t", "y": 90},
+		"facing=east,north=true,east=false,south=true,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_t"},
+		
+		"facing=south,north=false,east=true,south=false,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_t", "y": 90},
+		"facing=south,north=true,east=false,south=true,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_r_t"},
+		
+		"facing=west,north=false,east=true,south=false,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_r_t", "y": 90},
+		"facing=west,north=true,east=false,south=true,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_middle_t"},
+
+		"facing=north,toggle=false,north=true,east=false,south=false,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_r_t", "y": 180},
+		"facing=south,toggle=false,north=true,east=false,south=false,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_r_t", "y": 180},
+		"facing=east,toggle=false,north=true,east=false,south=false,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_t", "y": 180},
+		"facing=west,toggle=false,north=true,east=false,south=false,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_t", "y": 180},
+		
+		"facing=north,toggle=false,north=true,east=true,south=false,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_t", "y": 270},
+		"facing=south,toggle=false,north=true,east=true,south=false,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_t", "y": 270},
+		"facing=east,toggle=false,north=true,east=true,south=false,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_r_t", "y": 270},
+		"facing=west,toggle=false,north=true,east=true,south=false,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_r_t", "y": 270},
+		
+		"facing=north,toggle=false,north=false,east=true,south=true,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_r_t"},
+		"facing=south,toggle=false,north=false,east=true,south=true,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_r_t"},
+		"facing=east,toggle=false,north=false,east=true,south=true,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_t"},
+		"facing=west,toggle=false,north=false,east=true,south=true,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_t"},
+		
+		"facing=north,toggle=false,north=false,east=false,south=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_t", "y": 90},
+		"facing=south,toggle=false,north=false,east=false,south=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_t", "y": 90},	
+		"facing=east,toggle=false,north=false,east=false,south=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_r_t", "y": 90},	
+		"facing=west,toggle=false,north=false,east=false,south=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_corner_clear_r_t", "y": 90},		
+		
+		"facing=north,toggle=false,north=true,east=true,south=false,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_t"},
+		"facing=south,toggle=false,north=true,east=true,south=false,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_t"},
+		"facing=east,toggle=false,north=true,east=true,south=false,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_r_t"},
+		"facing=west,toggle=false,north=true,east=true,south=false,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_r_t"},
+		
+		"facing=north,toggle=false,north=false,east=true,south=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_t", "y": 180},
+		"facing=south,toggle=false,north=false,east=true,south=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_t", "y": 180},
+		"facing=east,toggle=false,north=false,east=true,south=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_r_t", "y": 180},
+		"facing=west,toggle=false,north=false,east=true,south=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_r_t", "y": 180},
+		
+		"facing=north,toggle=false,north=true,east=true,south=true,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_r_t", "y": 90},
+		"facing=south,toggle=false,north=true,east=true,south=true,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_r_t", "y": 90},
+		"facing=east,toggle=false,north=true,east=true,south=true,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_t", "y": 90},
+		"facing=west,toggle=false,north=true,east=true,south=true,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_t", "y": 90},
+		
+		"facing=north,toggle=false,north=true,east=false,south=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_r_t", "y": 270},
+		"facing=south,toggle=false,north=true,east=false,south=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_r_t", "y": 270},
+		"facing=east,toggle=false,north=true,east=false,south=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_t", "y": 270},
+		"facing=west,toggle=false,north=true,east=false,south=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_t", "y": 270},
+		
+		"facing=east,toggle=true,north=true,east=false,south=false,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_right_t"},
+		"facing=east,toggle=true,north=false,east=false,south=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_left_t", "y": 180},
+		"facing=east,toggle=true,north=false,east=true,south=true,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_right_t", "y": 180},
+		"facing=east,toggle=true,north=true,east=true,south=false,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_left_t"},
+		
+		"facing=north,toggle=true,north=true,east=false,south=false,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_left_t", "y": 270},
+		"facing=north,toggle=true,north=false,east=false,south=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_right_t", "y": 270},
+		"facing=north,toggle=true,north=false,east=true,south=true,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_left_t", "y": 90},
+		"facing=north,toggle=true,north=true,east=true,south=false,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_right_t", "y": 90},
+	
+		"facing=west,toggle=true,north=true,east=false,south=false,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_right_t"},
+		"facing=west,toggle=true,north=false,east=false,south=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_left_t", "y": 180},
+		"facing=west,toggle=true,north=false,east=true,south=true,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_right_t", "y": 180},
+		"facing=west,toggle=true,north=true,east=true,south=false,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_left_t"},
+		
+		"facing=south,toggle=true,north=true,east=false,south=false,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_left_t", "y": 270},
+		"facing=south,toggle=true,north=false,east=false,south=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_right_t", "y": 270},
+		"facing=south,toggle=true,north=false,east=true,south=true,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_left_t", "y": 90},
+		"facing=south,toggle=true,north=true,east=true,south=false,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_side_right_t", "y": 90},	
+
+		"east=true,facing=south,north=true,south=false,toggle=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_t", "y": 90},
+		"east=true,facing=south,north=false,south=true,toggle=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_t", "y": 90},
+		"east=false,facing=south,north=true,south=true,toggle=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_end_t", "y": 270},
+		"east=true,facing=south,north=true,south=true,toggle=true,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_end_t", "y": 90},
+	
+		"east=false,facing=east,north=true,south=true,toggle=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_t"},
+		"east=true,facing=east,north=true,south=false,toggle=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_end_t"},
+		"east=true,facing=east,north=false,south=true,toggle=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_end_t", "y": 180},
+		"east=true,facing=east,north=true,south=true,toggle=true,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_t"},
+		
+		"east=true,facing=west,north=false,south=true,toggle=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_end_t", "y": 180},
+		"east=true,facing=west,north=true,south=false,toggle=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_end_t"},
+		"east=false,facing=west,north=true,south=true,toggle=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_t"},
+		"east=true,facing=west,north=true,south=true,toggle=true,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_t"},
+		
+		"east=true,facing=north,north=true,south=true,toggle=true,west=false,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_end_t", "y": 90},
+		"east=true,facing=north,north=false,south=true,toggle=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_t", "y": 90},
+		"east=false,facing=north,north=true,south=true,toggle=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_end_t", "y": 270},
+		"east=true,facing=north,north=true,south=false,toggle=true,west=true,torch=true":  { "model": "mcwbridges:block/bridge/rope/mangrove_base_t", "y": 90}
+		
+		
+		
+
+    }
+}

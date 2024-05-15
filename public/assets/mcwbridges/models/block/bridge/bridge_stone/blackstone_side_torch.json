@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/bridge/bridge_stone/parent/side_torch",
+	"textures": {
+		"2": "minecraft:block/polished_blackstone_bricks",
+		"4": "mcwbridges:block/torch",
+		"5": "minecraft:block/blackstone_top",
+		"particle": "minecraft:block/polished_blackstone_bricks"
+	}
+}

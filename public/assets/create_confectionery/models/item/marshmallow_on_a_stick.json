@@ -1,0 +1,7 @@
+{
+  "parent": "create_confectionery:custom/marshmallow_on_a_stick",
+  "textures": {
+    "0": "create_confectionery:block/marshmallow_on_a_stick",
+    "particle": "create_confectionery:item/marshmallow_on_a_stick"
+  }
+}

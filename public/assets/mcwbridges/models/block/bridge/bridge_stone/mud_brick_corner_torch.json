@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/bridge/bridge_stone/parent/corner_torch",
+	"textures": {
+		"5": "minecraft:block/packed_mud",
+		"2": "minecraft:block/mud_bricks",
+		"4": "mcwbridges:block/torch",
+		"particle": "minecraft:block/mud_bricks"
+	}
+}

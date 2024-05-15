@@ -1,0 +1,9 @@
+{
+  "parent": "createmoredrillheads:block/abstract/abstract_tipped_tiered_drill_item",
+  "textures": {
+    "10": "minecraft:block/cobblestone",
+    "2": "minecraft:block/stone",
+    "7": "minecraft:block/cobblestone",
+    "dust": "createmoredrillheads:item/emerald_dusts"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create_confectionery:block/gingerbread_brick_slab"
+    },
+    "type=top": {
+      "model": "create_confectionery:block/gingerbread_brick_slab_top"
+    },
+    "type=double": {
+      "model": "create_confectionery:block/gingerbread_brick_slab_full"
+    }
+  }
+}

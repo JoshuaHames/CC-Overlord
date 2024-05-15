@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/bridge/bridge_stone/parent/side_left_torch",
+	"textures": {
+		"2": "minecraft:block/deepslate_tiles",
+		"4": "mcwbridges:block/torch",
+		"5": "minecraft:block/deepslate",
+		"particle": "minecraft:block/deepslate_tiles"
+	}
+}

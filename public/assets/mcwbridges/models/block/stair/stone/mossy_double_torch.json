@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/stair/stone/parent/double_torch",
+	"textures": {
+		"1": "minecraft:block/gravel",
+		"2": "minecraft:block/mossy_stone_bricks",
+		"4": "mcwbridges:block/torch",
+		"particle": "minecraft:block/mossy_stone_bricks"
+	}
+}

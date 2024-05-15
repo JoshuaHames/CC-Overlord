@@ -1,0 +1,9 @@
+{
+  "parent": "createmoredrillheads:block/abstract/abstract_tipped_tiered_drill_head",
+  "textures": {
+    "10": "minecraft:block/netherite_block",
+    "2": "minecraft:block/netherite_block",
+    "7": "minecraft:block/netherite_block",
+    "dust": "createmoredrillheads:item/amethyst_dusts"
+  }
+}

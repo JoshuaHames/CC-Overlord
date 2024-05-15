@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/support_pier/wooden/parent/pillar_middle",
+	"textures": {
+		"0": "minecraft:block/crimson_stem",
+		"1": "minecraft:block/crimson_stem_top",
+		"2": "minecraft:block/crimson_planks",
+		"particle": "minecraft:block/crimson_stem"
+	}
+}

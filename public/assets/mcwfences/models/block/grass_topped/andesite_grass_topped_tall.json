@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfences:block/parent/grass_topped_wall_tall",
+	"textures": {
+		"1": "minecraft:block/andesite",
+		"2": "minecraft:block/andesite",
+		"wall": "minecraft:block/polished_andesite",
+		"particle": "minecraft:block/polished_andesite"
+	}
+}

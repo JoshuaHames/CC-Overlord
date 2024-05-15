@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/stair/stone/parent/base_torch",
+	"textures": {
+		"1": "minecraft:block/deepslate",
+		"2": "minecraft:block/deepslate_tiles",
+		"4": "mcwbridges:block/torch",
+		"particle": "minecraft:block/deepslate_tiles"
+	}
+}

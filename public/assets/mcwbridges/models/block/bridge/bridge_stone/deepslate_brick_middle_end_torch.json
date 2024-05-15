@@ -1,0 +1,10 @@
+{
+	"parent": "mcwbridges:block/bridge/bridge_stone/parent/middle_end_torch",
+	"textures": {
+		"5": "minecraft:block/deepslate",
+		"4": "mcwbridges:block/torch",
+		"1": "minecraft:block/deepslate",
+		"2": "minecraft:block/deepslate_bricks",
+		"particle": "minecraft:block/deepslate_bricks"
+	}
+}

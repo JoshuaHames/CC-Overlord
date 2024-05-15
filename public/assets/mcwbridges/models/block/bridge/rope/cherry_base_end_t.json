@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/bridge/rope/parent/base_end_torch",
+	"textures": {
+		"1": "minecraft:block/cherry_planks",
+		"2": "minecraft:block/cherry_log",
+		"3": "mcwbridges:block/torch",
+		"particle": "minecraft:block/cherry_planks"
+	}
+}

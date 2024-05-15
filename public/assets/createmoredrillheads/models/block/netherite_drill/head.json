@@ -1,0 +1,8 @@
+{
+  "parent": "createmoredrillheads:block/abstract/head",
+  "textures": {
+    "10": "minecraft:block/netherite_block",
+    "2": "minecraft:block/netherite_block",
+    "7": "minecraft:block/netherite_block"
+  }
+}

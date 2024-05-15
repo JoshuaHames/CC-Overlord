@@ -1,0 +1,19 @@
+{
+  "steam_noise": {
+    "subtitle": "subtitles.steam_noise",
+    "sounds": [
+      {
+        "name": "create_sa:steam",
+        "stream": false
+      }
+    ]
+  },
+  "cogs_sound": {
+    "sounds": [
+      {
+        "name": "create_sa:cogs",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/stair/wood/parent/right_torch",
+	"textures": {
+		"2": "minecraft:block/mangrove_planks",
+		"4": "mcwbridges:block/torch",
+		"particle": "minecraft:block/mangrove_log",
+		"1_1": "minecraft:block/mangrove_log"
+	}
+}

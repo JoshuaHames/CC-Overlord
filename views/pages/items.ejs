@@ -1,0 +1,113 @@
+<!-- Inventory Tooltip -->
+<script>
+    let mouseX = 0;
+    let mouseY = 0;
+    let hovering = false;
+    let offsetX = 10
+    let offsetY = 0
+
+    function UpdateToolTipText(title){
+        document.getElementById("tooltiptext").innerHTML = title
+        document.getElementById("tooltip").animate({
+            opacity: '100%'
+
+        }, {duration: 100, fill: "forwards"})
+        offsetY = -document.getElementById("tooltip").offsetHeight/3
+    }
+
+    function CloseToolTip(){
+        document.getElementById("tooltip").animate({
+            opacity: '0%'
+
+        }, {duration: 600, fill: "forwards"})
+    }
+
+    //Update the tooltip's position when the mouse moves
+    document.onpointermove = event => {
+        const { clientX, clientY } = event;
+        mouseX = clientX;
+        mouseY = clientY
+        let newX = window.scrollX + clientX + offsetX;
+        let newY = window.scrollY + clientY + offsetY;
+        document.getElementById("tooltip").animate({
+            left: `${newX}px`,
+            top: `${newY}px`
+
+        }, {duration: 1, fill: "forwards"})
+    }
+
+    //Update the tooltip's position when the screen scrolls
+    document.onscroll = event => {
+        let newX = window.scrollX + mouseX + offsetX;
+        let newY = window.scrollY + mouseY + offsetY
+        document.getElementById("tooltip").animate({
+            left: `${newX}px`,
+            top: `${newY}px`
+
+        }, {duration: 1, fill: "forwards"})
+    }
+</script>
+
+<style>
+    #tooltip{
+        display: block;
+        opacity: 0%;
+        width: 120px;
+        background-color: black;
+        text-align: center;
+        border-radius: 6px;
+        position: absolute;
+        z-index: 1;
+        padding: 5px 0;
+    }
+
+    .grid-item {
+            width: 100px;
+            height: 100px;
+            background-color: #393c70;
+            color: white;
+            margin: 5px;
+            position: relative;
+            text-align: center;
+        }
+
+    .item-text {
+        font-family: Minecraft;
+    }
+
+    .item-icon {
+        image-rendering: pixelated;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 75px;
+        height: 75px;
+        object-fit: cover;
+        transform: translate(-50%, -50%);
+    }
+    #tooltiptext {
+        color: #fff;
+        padding: 10px;
+        font-family: Minecraft;
+    }
+
+</style>
+
+
+
+
+<!-- Following Tooltip -->
+
+<% items.forEach(item => { %>
+
+    <div id="<%=item.id%>-grid" class="grid-item  <%= item.change %>" onmouseover="UpdateToolTipText(`<%= item.display_name %>`)" onmouseleave="CloseToolTip()">
+        
+        <img id="<%=item.id%>-icon" class="item-icon" src=<%=item.item_icon%>>
+        
+        <div id="<%= item.id %>-count" class="item-text">
+            <%= item.item_count %>
+        </div>
+    </div>
+
+<%}); %>

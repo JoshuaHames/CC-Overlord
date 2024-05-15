@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "create_confectionery:block/caramel_bricks",
+    "top": "create_confectionery:block/caramel_bricks",
+    "side": "create_confectionery:block/caramel_bricks"
+  },
+  "render_type": "translucent"
+}

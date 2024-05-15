@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "create_confectionery:block/candy_cane_top",
+    "up": "create_confectionery:block/candy_cane_top",
+    "north": "create_confectionery:block/candy_cane_face",
+    "east": "create_confectionery:block/candy_cane_face",
+    "south": "create_confectionery:block/candy_cane_face",
+    "west": "create_confectionery:block/candy_cane_face",
+    "particle": "create_confectionery:block/candy_cane_top"
+  },
+  "render_type": "solid"
+}

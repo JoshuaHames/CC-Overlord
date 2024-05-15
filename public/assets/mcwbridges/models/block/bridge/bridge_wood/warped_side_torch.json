@@ -1,0 +1,9 @@
+	{
+	"parent": "mcwbridges:block/bridge/bridge_wood/parent/side_torch",
+	"textures": {
+		"5": "minecraft:block/warped_planks",
+		"0": "minecraft:block/warped_stem",
+		"4": "mcwbridges:block/torch",
+		"particle": "minecraft:block/warped_stem"
+	}
+}

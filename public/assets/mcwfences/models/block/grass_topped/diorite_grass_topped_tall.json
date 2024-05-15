@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfences:block/parent/grass_topped_wall_tall",
+	"textures": {
+		"1": "minecraft:block/diorite",
+		"2": "minecraft:block/diorite",
+		"wall": "minecraft:block/polished_diorite",
+		"particle": "minecraft:block/polished_diorite"
+	}
+}

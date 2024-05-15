@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/stair/stone/parent/right_torch",
+	"textures": {
+		"1": "minecraft:block/sand",
+		"2": "minecraft:block/sandstone",
+		"4": "mcwbridges:block/torch",
+		"particle": "minecraft:block/sandstone"
+	}
+}

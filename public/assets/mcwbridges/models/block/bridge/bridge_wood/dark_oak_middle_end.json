@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/bridge/bridge_wood/parent/middle_end",
+	"textures": {
+		"5": "minecraft:block/dark_oak_planks",
+		"0": "minecraft:block/dark_oak_log",
+		"1": "minecraft:block/dark_oak_planks",
+		"particle": "minecraft:block/dark_oak_log"
+	}
+}

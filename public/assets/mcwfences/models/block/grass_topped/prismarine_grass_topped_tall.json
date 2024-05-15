@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfences:block/parent/grass_topped_wall_tall",
+	"textures": {
+		"1": "minecraft:block/prismarine",
+		"2": "minecraft:block/prismarine",
+		"wall": "minecraft:block/prismarine_bricks",
+		"particle": "minecraft:block/prismarine_bricks"
+	}
+}

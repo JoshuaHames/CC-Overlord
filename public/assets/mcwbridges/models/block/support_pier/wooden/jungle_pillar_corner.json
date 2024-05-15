@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/support_pier/wooden/parent/pillar_corner",
+	"textures": {
+		"0": "minecraft:block/jungle_log",
+		"1": "minecraft:block/jungle_log_top",
+		"2": "minecraft:block/jungle_planks",
+		"particle": "minecraft:block/jungle_log"
+	}
+}

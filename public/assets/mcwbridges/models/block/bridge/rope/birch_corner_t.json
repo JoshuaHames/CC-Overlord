@@ -1,0 +1,11 @@
+{
+	"parent": "mcwbridges:block/bridge/rope/parent/corner_torch",
+	"textures": {
+		"2": "minecraft:block/birch_planks",
+		"3": "mcwbridges:block/lead_knot_vert",
+		"4": "minecraft:block/birch_log",
+		"5": "mcwbridges:block/torch",
+		"particle": "minecraft:block/birch_planks",
+		"1_4": "mcwbridges:block/lead_knot"
+	}
+}

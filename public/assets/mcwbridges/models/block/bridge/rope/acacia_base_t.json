@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/bridge/rope/parent/base_torch",
+	"textures": {
+		"1": "minecraft:block/acacia_log",
+		"2": "mcwbridges:block/torch",
+		"3": "minecraft:block/acacia_planks",
+		"particle": "minecraft:block/acacia_planks"
+	}
+}

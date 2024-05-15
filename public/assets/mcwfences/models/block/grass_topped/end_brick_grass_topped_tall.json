@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfences:block/parent/grass_topped_wall_tall",
+	"textures": {
+		"1": "minecraft:block/end_stone",
+		"2": "minecraft:block/end_stone",
+		"wall": "minecraft:block/end_stone_bricks",
+		"particle": "minecraft:block/end_stone_bricks"
+	}
+}

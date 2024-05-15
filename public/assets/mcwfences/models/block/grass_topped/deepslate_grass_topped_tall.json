@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfences:block/parent/grass_topped_wall_tall",
+	"textures": {
+		"1": "minecraft:block/deepslate",
+		"2": "minecraft:block/deepslate",
+		"wall": "minecraft:block/polished_deepslate",
+		"particle": "minecraft:block/polished_deepslate"
+	}
+}

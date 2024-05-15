@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create_confectionery:block/white_chocolate_bricks_slab"
+    },
+    "type=top": {
+      "model": "create_confectionery:block/white_chocolate_bricks_slab_top"
+    },
+    "type=double": {
+      "model": "create_confectionery:block/white_chocolate_bricks_slab_full"
+    }
+  }
+}

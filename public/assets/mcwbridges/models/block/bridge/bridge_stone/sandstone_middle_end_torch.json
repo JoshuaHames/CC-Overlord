@@ -1,0 +1,10 @@
+{
+	"parent": "mcwbridges:block/bridge/bridge_stone/parent/middle_end_torch",
+	"textures": {
+		"5": "minecraft:block/sand",
+		"4": "mcwbridges:block/torch",
+		"1": "minecraft:block/sand",
+		"2": "minecraft:block/sandstone",
+		"particle": "minecraft:block/sandstone"
+	}
+}

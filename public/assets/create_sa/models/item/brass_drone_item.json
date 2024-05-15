@@ -1,0 +1,7 @@
+{
+  "parent": "create_sa:custom/brass_drone_item",
+  "textures": {
+    "1": "create_sa:block/brass_drone",
+    "particle": "create_sa:item/brass_drone"
+  }
+}

@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/stair/wood/parent/right_torch",
+	"textures": {
+		"2": "minecraft:block/crimson_planks",
+		"particle": "minecraft:block/crimson_stem",
+		"4": "mcwbridges:block/torch",
+		"1_1": "minecraft:block/crimson_stem"
+	}
+}

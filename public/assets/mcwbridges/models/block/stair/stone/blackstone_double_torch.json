@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/stair/stone/parent/double_torch",
+	"textures": {
+		"1": "minecraft:block/blackstone_top",
+		"2": "minecraft:block/polished_blackstone_bricks",
+		"4": "mcwbridges:block/torch",
+		"particle": "minecraft:block/polished_blackstone_bricks"
+	}
+}

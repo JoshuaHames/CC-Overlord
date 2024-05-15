@@ -1,0 +1,78 @@
+<html>
+    <link rel="stylesheet" href="/Style/general.css">
+        <script src="https://unpkg.com/htmx.org@1"> </script>
+        <script src="/socket.io/socket.io.js"></script>
+
+        <script>
+            var socket = io();
+
+
+            const wiggle = [
+                {transform: "scaleY(1.5) translate(-50%, -35%)"},
+                {transform: "scaleY(1) translate(-50%, -50%)"},
+            ];
+
+            const inc = [
+                {background: "lawngreen"},
+                {background: "#393c70"},
+            ];
+
+            const dec = [
+                {background: "crimson"},
+                {background: "#393c70"},
+            ];
+
+            socket.on('UpdateItem', function(item, change) {
+                    let itemGrid = document.getElementById(item.itemName + "-grid")
+                    let itemCount = document.getElementById(item.itemName + "-count")
+                    let itemIcon = document.getElementById(item.itemName + "-icon")
+                    itemCount.innerHTML = item.itemCount
+
+                    itemIcon.animate(wiggle, {duration: 500})
+
+                    switch(item.change) {
+                        case "dec":
+                            itemGrid.animate(dec, {duration: 10000})
+                            break;
+                        case "inc":
+                            itemGrid.animate(inc, {duration: 10000})
+                            break;
+                        default:
+
+                    }
+                });
+
+                socket.on('AddItem', function(){
+                    htmx.trigger("#inv", "reload")
+                });
+
+        </script>
+
+    <style>
+        #main{
+            width: 100%;
+            min-height: 100vh;
+            background: black;
+            display: grid;
+        }
+        #inv {
+            place-self: center;
+            display: inline-grid;
+            grid-template-columns: repeat(11, 1fr)
+            
+        }
+
+
+    </style> 
+
+    <!-- Following Tooltip -->
+    <div id="tooltip">
+        <div id="tooltiptext"></div>
+    </div>
+
+    <div id="main">
+        <div id="inv" hx-get="/getinv" hx-trigger="reload, load"> Failed to fetch inventory data on load </div>
+
+        <div id="move">Testing</div>
+    </div>
+</html>

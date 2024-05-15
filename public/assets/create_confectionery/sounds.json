@@ -1,0 +1,11 @@
+{
+  "the_bright_side": {
+    "subtitle": "subtitles.the_bright_side",
+    "sounds": [
+      {
+        "name": "create_confectionery:minecraft-ust-the-bright-side-119-music-disc-concept",
+        "stream": true
+      }
+    ]
+  }
+}

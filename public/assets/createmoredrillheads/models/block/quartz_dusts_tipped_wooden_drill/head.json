@@ -1,0 +1,9 @@
+{
+  "parent": "createmoredrillheads:block/abstract/abstract_tipped_tiered_drill_head",
+  "textures": {
+    "10": "minecraft:block/oak_planks",
+    "2": "minecraft:block/oak_log",
+    "7": "minecraft:block/oak_planks",
+    "dust": "createmoredrillheads:item/quartz_dusts"
+  }
+}

@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfences:block/parent/grass_topped_wall_tall",
+	"textures": {
+		"1": "minecraft:block/netherrack",
+		"2": "minecraft:block/netherrack",
+		"wall": "minecraft:block/nether_bricks",
+		"particle": "minecraft:block/nether_bricks"
+	}
+}

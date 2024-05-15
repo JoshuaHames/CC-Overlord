@@ -1,0 +1,9 @@
+	{
+	"parent": "mcwbridges:block/bridge/bridge_wood/parent/side_torch",
+	"textures": {
+		"5": "minecraft:block/jungle_planks",
+		"0": "minecraft:block/jungle_log",
+		"4": "mcwbridges:block/torch",
+		"particle": "minecraft:block/jungle_log"
+	}
+}

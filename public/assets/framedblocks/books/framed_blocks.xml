@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<book cover="framedblocks:item/framed_guidebook" title="FramedBlocks">
+    <include ref="gbook:xml/standard.xml"/>
+    <chapter id="index">
+        <section id="cover">
+            <page_title>
+                <title scale="1.5">FramedBlocks</title>
+            </page_title>
+            <p align="center">Welcome to the FramedBlocks guidebook</p>
+            <space height="100"/>
+            <p align="center">This book is a work-in-progress</p>
+        </section>
+        <section id="index">
+            <page_title>
+                <title>Index</title>
+            </page_title>
+            <link ref="basics">1. Basics</link>
+            <link indent="8" ref="basics:apply_camo">1.1 Applying a camo</link>
+            <link ref="tools">2. Tools</link>
+            <link indent="8" ref="tools:hammer">2.1 Framed Hammer</link>
+            <link indent="8" ref="tools:wrench">2.2 Framed Wrench</link>
+            <link indent="8" ref="tools:wrench">2.3 Framed Blueprint</link>
+            <link indent="8" ref="tools:key">2.4 Framed Key</link>
+            <link indent="8" ref="tools:screwdriver">2.5 Framed Screwdriver</link>
+            <link indent="8" ref="tools:reinforcement">2.6 Framed Reinforcement</link>
+            <link ref="placement">3. Special Placement</link>
+            <link indent="8" ref="placement:corner">3.1 Framed Corners</link>
+            <link indent="8" ref="placement:prism">3.2 Framed Prisms</link>
+            <link indent="8" ref="placement:slope_slab">3.3 Framed Slope Slabs</link>
+            <link indent="8" ref="placement:slope_panel">3.4 Framed Slope Panels</link>
+            <link ref="interactions">4. Special Interactions</link>
+            <link indent="8" ref="interactions:sloped_blocks">4.1 Sloped blocks</link>
+            <link indent="8" ref="interactions:slab_panel">4.2 Framed Slab and Panel</link>
+            <link indent="8" ref="interactions:prism_corners">4.3 Framed Prism Corners</link>
+            <link indent="8" ref="interactions:pressure_plates">4.4 Framed Pressure Plates</link>
+            <link indent="8" ref="interactions:slopes_rails">4.5 Framed Slopes and Rails</link>
+            <link indent="8" ref="interactions:collapsible_block">4.6 Framed Collapsible Block</link>
+            <link indent="8" ref="interactions:target">4.7 Framed Target</link>
+            <link indent="8" ref="interactions:item_frames">4.8 Framed Item Frames</link>
+            <link indent="8" ref="interactions:one_way_window">4.9 Framed One-Way Window</link>
+            <link ref="crafting">5. Crafting</link>
+            <link indent="8" ref="crafting:table">5.1 Crafting Table</link>
+            <link indent="8" ref="crafting:framing_saw">5.2 Framing Saw</link>
+            <link ref="config">6. Config</link>
+            <link indent="8" ref="config:common">6.1 Common Config</link>
+            <link indent="8" ref="config:server">6.2 Server Config</link>
+            <link indent="8" ref="config:client">6.3 Client Config</link>
+            <link ref="datapack">7. Datapack Features</link>
+            <link indent="8" ref="datapack:tag_frameable">7.1 Frameable Tag</link>
+            <link indent="8" ref="datapack:tag_whitelist">7.2 Whitelist Tag</link>
+            <link indent="8" ref="datapack:tag_blacklist">7.3 Blacklist Tag</link>
+            <link indent="8" ref="datapack:tag_sustain_plant">7.3 Sustain Plant Tag</link>
+        </section>
+    </chapter>
+    <chapter id="basics">
+        <section id="apply_camo"/>
+    </chapter>
+    <chapter id="tools">
+        <section id="hammer"/>
+        <section id="wrench"/>
+        <section id="blueprint"/>
+        <section id="key"/>
+        <section id="screwdriver"/>
+        <section id="reinforcement"/>
+    </chapter>
+    <chapter id="placement">
+        <section id="corner"/>
+        <section id="prism"/>
+        <section id="slope_slab"/>
+        <section id="slope_panel"/>
+    </chapter>
+    <chapter id="interactions">
+        <section id="sloped_blocks"/>
+        <section id="slab_panel"/>
+        <section id="prism_corners"/>
+        <section id="pressure_plates"/>
+        <section id="slopes_rails"/>
+        <section id="collapsible_block"/>
+        <section id="target"/>
+        <section id="item_frames"/>
+        <section id="one_way_window"/>
+    </chapter>
+    <chapter id="crafting">
+        <section id="table"/>
+        <section id="framing_saw"/>
+    </chapter>
+    <chapter id="config">
+        <section id="common"/>
+        <section id="server"/>
+        <section id="client"/>
+    </chapter>
+    <chapter id="datapack">
+        <section id="tag_frameable"/>
+        <section id="tag_whitelist"/>
+        <section id="tag_blacklist"/>
+        <section id="tag_sustain_plant"/>
+    </chapter>
+</book>

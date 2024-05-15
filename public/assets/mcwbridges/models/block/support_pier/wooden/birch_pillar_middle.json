@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/support_pier/wooden/parent/pillar_middle",
+	"textures": {
+		"0": "minecraft:block/birch_log",
+		"1": "minecraft:block/birch_log_top",
+		"2": "minecraft:block/birch_planks",
+		"particle": "minecraft:block/birch_log"
+	}
+}

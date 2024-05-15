@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "create_confectionery:block/gingerbread_block",
+    "top": "create_confectionery:block/gingerbread_block",
+    "side": "create_confectionery:block/gingerbread_block"
+  },
+  "render_type": "solid"
+}

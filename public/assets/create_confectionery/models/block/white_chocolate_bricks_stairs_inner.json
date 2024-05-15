@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "create_confectionery:block/white_chocolate_bricks",
+    "top": "create_confectionery:block/white_chocolate_bricks",
+    "side": "create_confectionery:block/white_chocolate_bricks"
+  },
+  "render_type": "solid"
+}
